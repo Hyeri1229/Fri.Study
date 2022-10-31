@@ -17,7 +17,7 @@ class Solution {
 				answer = i;
 			}
 			else if (count[i] == max) {
-                // 카운트 갑 같으면 -1 출력
+                // 카운트 값 같으면 -1 출력
 				answer = -1;
 			}
 		}
