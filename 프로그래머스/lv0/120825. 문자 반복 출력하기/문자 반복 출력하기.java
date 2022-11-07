@@ -8,7 +8,7 @@ class Solution {
             ch[i] = my_string.charAt(i);
         }
         
-        // ch 배열의 인덱스를 n번만큼 출력
+        // ch 배열의 인덱스를 n번만큼 answer에 누적
         for (int i = 0; i < ch.length; i++) {
             for (int j = 0; j < n; j++) {
                 answer += ch[i];
